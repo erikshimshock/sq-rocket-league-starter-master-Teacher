@@ -50,6 +50,8 @@ class Bot(GoslingAgent):
             self.set_intent(goto(target_boost.location))
             return
 
+        # i'm adding this comment to see github change tracking
+
         print("I'm lost without an intent!")
 
         # # go to first boost in list
